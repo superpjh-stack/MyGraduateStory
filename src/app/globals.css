@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+@layer base {
+  :root {
+    --background: 40 30% 98%;
+    --foreground: 150 20% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 150 20% 10%;
+    --border: 120 15% 88%;
+    --input: 120 15% 88%;
+    --ring: 145 33% 27%;
+    --primary: 145 33% 27%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 120 20% 94%;
+    --secondary-foreground: 150 20% 20%;
+    --muted: 120 15% 95%;
+    --muted-foreground: 150 10% 50%;
+    --accent: 35 80% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-200 hover:shadow-md hover:-translate-y-0.5;
+  }
+
+  .emotion-chip {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .nav-item {
+    @apply flex flex-col items-center gap-0.5 text-xs text-muted-foreground transition-colors hover:text-primary;
+  }
+
+  .nav-item.active {
+    @apply text-primary font-medium;
+  }
+}
+
+/* 모바일 바텀 패딩 (BottomNav 공간) */
+.page-with-bottom-nav {
+  @apply pb-24;
+}
+
+/* iOS Safe Area */
+.safe-area-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.pb-safe {
+  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+
+/* 바텀 시트 슬라이드 업 애니메이션 */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* 탭 피드백 */
+@media (hover: none) {
+  button:active, a:active {
+    transform: scale(0.97);
+    transition: transform 0.1s ease-out;
+  }
+}
+
+/* forest / sand 컬러 유틸리티 */
+.bg-forest-400 { background-color: #4A9A5E; }
+.bg-sand-300   { background-color: #C4956A; }

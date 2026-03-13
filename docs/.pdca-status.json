@@ -1,0 +1,1419 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-03-13T12:42:19.546Z",
+  "activeFeatures": [
+    "mygraduate",
+    "MyGraduate",
+    "supabase",
+    "actions",
+    "(auth)",
+    "login",
+    "signup",
+    "layout",
+    "(app)",
+    "session",
+    "growth",
+    "dashboard",
+    "sessions",
+    "new",
+    "subjects",
+    "reflect",
+    "reflection",
+    "timeline",
+    "[id]",
+    "refresh",
+    "settings",
+    "onboarding",
+    "capsule",
+    "assessment",
+    "more",
+    "knowledge-map",
+    "storybook",
+    "analytics",
+    "ai-summary",
+    "export"
+  ],
+  "primaryFeature": "mygraduate",
+  "features": {
+    "mygraduate": {
+      "phase": "check",
+      "startedAt": "2026-03-13T00:59:00.000Z",
+      "updatedAt": "2026-03-13T11:00:00.000Z",
+      "matchRate": 93,
+      "iterationCount": 1,
+      "planDoc": "docs/01-plan/product-requirements.md",
+      "designDocs": [
+        "docs/02-design/system-architecture.md",
+        "docs/02-design/ui-ux-design.md",
+        "docs/02-design/data-model.md",
+        "docs/03-implementation/development-plan.md"
+      ],
+      "analysisDoc": "docs/03-analysis/mygraduate-phase3.analysis.md",
+      "reportDoc": "docs/04-report/mygraduate.report.md",
+      "phases": {
+        "phase1": {
+          "matchRate": 98,
+          "reportDoc": "docs/04-report/mygraduate.report.md"
+        },
+        "phase2": {
+          "matchRate": 92,
+          "analysisDoc": "docs/03-analysis/mygraduate-phase2.analysis.md"
+        },
+        "phase3": {
+          "matchRate": 93,
+          "analysisDoc": "docs/03-analysis/mygraduate-phase3.analysis.md"
+        }
+      }
+    },
+    "MyGraduate": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T01:57:29.054Z",
+        "lastUpdated": "2026-03-13T12:42:19.546Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\lib\\offline-sync.ts"
+    },
+    "supabase": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T01:58:34.644Z",
+        "lastUpdated": "2026-03-13T07:10:51.755Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/lib/supabase/server.ts"
+    },
+    "actions": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T01:58:59.480Z",
+        "lastUpdated": "2026-03-13T10:51:18.100Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\lib\\actions\\growth.ts"
+    },
+    "(auth)": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:00:06.580Z",
+        "lastUpdated": "2026-03-13T02:00:06.580Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(auth)/layout.tsx"
+    },
+    "login": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:00:20.480Z",
+        "lastUpdated": "2026-03-13T05:47:35.593Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(auth)/login/page.tsx"
+    },
+    "signup": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:00:28.425Z",
+        "lastUpdated": "2026-03-13T02:00:28.425Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(auth)/signup/page.tsx"
+    },
+    "layout": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:00:39.981Z",
+        "lastUpdated": "2026-03-13T12:41:30.457Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\components\\layout\\app-shell.tsx"
+    },
+    "(app)": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:00:48.412Z",
+        "lastUpdated": "2026-03-13T10:42:28.624Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\layout.tsx"
+    },
+    "session": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:01:05.629Z",
+        "lastUpdated": "2026-03-13T09:48:39.415Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\components\\session\\session-filter.tsx"
+    },
+    "growth": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:01:48.310Z",
+        "lastUpdated": "2026-03-13T09:48:20.384Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\growth\\page.tsx"
+    },
+    "dashboard": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:01:57.090Z",
+        "lastUpdated": "2026-03-13T05:58:31.717Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(app)/dashboard/page.tsx"
+    },
+    "sessions": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:02:25.244Z",
+        "lastUpdated": "2026-03-13T10:16:19.852Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\sessions\\page.tsx"
+    },
+    "new": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:03:00.627Z",
+        "lastUpdated": "2026-03-13T02:03:00.627Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(app)/sessions/new/page.tsx"
+    },
+    "subjects": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:03:03.198Z",
+        "lastUpdated": "2026-03-13T06:32:12.300Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(app)/subjects/page.tsx"
+    },
+    "reflect": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:03:34.858Z",
+        "lastUpdated": "2026-03-13T09:54:19.339Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\reflect\\page.tsx"
+    },
+    "reflection": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:03:59.254Z",
+        "lastUpdated": "2026-03-13T02:03:59.254Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/components/reflection/reflection-form.tsx"
+    },
+    "timeline": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:04:44.080Z",
+        "lastUpdated": "2026-03-13T10:16:25.327Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\timeline\\page.tsx"
+    },
+    "[id]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:05:00.838Z",
+        "lastUpdated": "2026-03-13T06:28:44.662Z"
+      },
+      "lastFile": "C:/gerardo/01 SmallSF/MyGraduate/src/app/(app)/sessions/[id]/page.tsx"
+    },
+    "refresh": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T02:53:50.159Z",
+        "lastUpdated": "2026-03-13T02:53:50.159Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\api\\growth\\refresh\\route.ts"
+    },
+    "settings": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T09:49:20.543Z",
+        "lastUpdated": "2026-03-13T09:49:45.017Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\settings\\page.tsx"
+    },
+    "onboarding": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T09:50:10.929Z",
+        "lastUpdated": "2026-03-13T09:50:10.929Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\onboarding\\page.tsx"
+    },
+    "capsule": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T09:50:28.130Z",
+        "lastUpdated": "2026-03-13T10:42:33.766Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\components\\capsule\\capsule-list.tsx"
+    },
+    "assessment": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T09:51:33.384Z",
+        "lastUpdated": "2026-03-13T09:52:02.308Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\components\\assessment\\assessment-radar-chart.tsx"
+    },
+    "more": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T09:53:11.626Z",
+        "lastUpdated": "2026-03-13T10:38:27.291Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\more\\page.tsx"
+    },
+    "knowledge-map": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T10:32:33.925Z",
+        "lastUpdated": "2026-03-13T10:32:49.134Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\knowledge-map\\page.tsx"
+    },
+    "storybook": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T10:35:41.357Z",
+        "lastUpdated": "2026-03-13T10:35:41.357Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\storybook\\page.tsx"
+    },
+    "analytics": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T10:35:52.552Z",
+        "lastUpdated": "2026-03-13T10:36:31.288Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\analytics\\page.tsx"
+    },
+    "ai-summary": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T10:37:01.932Z",
+        "lastUpdated": "2026-03-13T10:52:13.466Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\app\\(app)\\ai-summary\\page.tsx"
+    },
+    "export": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-13T10:37:15.403Z",
+        "lastUpdated": "2026-03-13T10:52:04.363Z"
+      },
+      "lastFile": "C:\\gerardo\\01 SmallSF\\MyGraduate\\src\\components\\export\\print-button.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 3,
+    "level": "Dynamic",
+    "phaseHistory": [
+      "plan",
+      "design",
+      "do"
+    ]
+  },
+  "session": {
+    "startedAt": "2026-03-13T00:57:58.443Z",
+    "onboardingCompleted": true,
+    "lastActivity": "2026-03-13T12:42:19.546Z"
+  },
+  "history": [
+    {
+      "phase": "plan",
+      "feature": "mygraduate",
+      "at": "2026-03-13T01:00:00.000Z"
+    },
+    {
+      "phase": "design",
+      "feature": "mygraduate",
+      "at": "2026-03-13T01:30:00.000Z"
+    },
+    {
+      "phase": "do",
+      "feature": "mygraduate",
+      "at": "2026-03-13T02:00:00.000Z"
+    },
+    {
+      "timestamp": "2026-03-13T01:57:29.054Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:57:47.877Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:10.052Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:27.493Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:34.644Z",
+      "feature": "supabase",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:37.181Z",
+      "feature": "supabase",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:50.236Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:58:59.480Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:59:13.784Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:59:19.691Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:59:35.655Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T01:59:45.027Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:03.574Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:06.580Z",
+      "feature": "(auth)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:20.480Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:28.425Z",
+      "feature": "signup",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:30.724Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:39.981Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:45.500Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:00:48.413Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:01:05.629Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:01:20.556Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:01:48.310Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:01:57.090Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:02:21.145Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:02:25.244Z",
+      "feature": "sessions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:03:00.627Z",
+      "feature": "new",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:03:03.198Z",
+      "feature": "subjects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:03:26.081Z",
+      "feature": "subjects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:03:34.858Z",
+      "feature": "reflect",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:03:59.254Z",
+      "feature": "reflection",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:04:12.716Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:04:24.016Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:04:44.080Z",
+      "feature": "timeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:05:00.838Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:49:26.162Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:49:41.379Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:49:53.203Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:01.867Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:16.660Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:33.792Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:41.156Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:46.847Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:50:54.641Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:53:12.582Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:53:23.254Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:53:50.159Z",
+      "feature": "refresh",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:53:58.801Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:54:06.070Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:54:12.095Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T02:54:20.961Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:13:40.906Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:22:13.886Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:55:04.824Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:55:13.384Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:55:26.918Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:56:02.158Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:56:49.740Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T04:57:52.811Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:47:35.593Z",
+      "feature": "login",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:51:34.569Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:51:42.450Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:53:57.228Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:54:49.359Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:58:27.970Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T05:58:31.717Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:27:14.642Z",
+      "feature": "reflect",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:28:44.662Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:32:12.300Z",
+      "feature": "subjects",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:53:15.710Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:55:49.597Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:56:35.461Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T06:58:10.207Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:00:22.736Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:10:51.756Z",
+      "feature": "supabase",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:10:56.794Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:05.831Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:11.229Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:15.609Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:23.208Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:35.642Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:41.604Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:46.098Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:11:53.201Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:02.343Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:08.482Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:16.677Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:43.768Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:48.099Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:53.391Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T07:12:57.652Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:47:27.426Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:47:43.281Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:47:57.804Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:07.746Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:14.183Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:20.384Z",
+      "feature": "growth",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:29.498Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:39.415Z",
+      "feature": "session",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:48:50.041Z",
+      "feature": "sessions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:49:00.792Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:49:20.543Z",
+      "feature": "settings",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:49:37.256Z",
+      "feature": "settings",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:49:45.017Z",
+      "feature": "settings",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:50:10.929Z",
+      "feature": "onboarding",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:50:20.945Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:50:28.130Z",
+      "feature": "capsule",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:50:44.388Z",
+      "feature": "capsule",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:51:01.384Z",
+      "feature": "capsule",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:51:15.652Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:51:33.384Z",
+      "feature": "assessment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:51:49.554Z",
+      "feature": "assessment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:52:02.308Z",
+      "feature": "assessment",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:52:18.124Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:52:42.538Z",
+      "feature": "timeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:52:52.560Z",
+      "feature": "timeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:53:11.626Z",
+      "feature": "more",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:53:35.150Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:53:47.135Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:53:56.033Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T09:54:19.340Z",
+      "feature": "reflect",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:16:19.853Z",
+      "feature": "sessions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:16:25.327Z",
+      "feature": "timeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:31:34.642Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:32:03.847Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:32:33.925Z",
+      "feature": "knowledge-map",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:32:49.134Z",
+      "feature": "knowledge-map",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:35:41.357Z",
+      "feature": "storybook",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:35:52.552Z",
+      "feature": "analytics",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:36:02.957Z",
+      "feature": "analytics",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:36:31.288Z",
+      "feature": "analytics",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:37:01.932Z",
+      "feature": "ai-summary",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:37:15.403Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:37:28.977Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:37:48.630Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:38:00.418Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:38:05.048Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:38:27.291Z",
+      "feature": "more",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:42:21.648Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:42:28.624Z",
+      "feature": "(app)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:42:33.766Z",
+      "feature": "capsule",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:42:39.012Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:51:18.100Z",
+      "feature": "actions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:51:26.293Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:51:39.298Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:51:57.621Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:52:04.363Z",
+      "feature": "export",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T10:52:13.466Z",
+      "feature": "ai-summary",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:40:08.022Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:40:23.643Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:40:38.697Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:40:50.792Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:41:10.739Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:41:22.983Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:41:30.457Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:41:43.316Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-13T12:42:19.546Z",
+      "feature": "MyGraduate",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}

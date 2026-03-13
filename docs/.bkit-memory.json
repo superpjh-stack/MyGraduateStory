@@ -1,0 +1,19 @@
+{
+  "sessionCount": 6,
+  "lastSession": {
+    "startedAt": "2026-03-13T10:34:20.913Z",
+    "platform": "claude",
+    "level": "Dynamic"
+  },
+  "currentFeature": "pwa",
+  "currentPhase": "do",
+  "project": {
+    "name": "MyGraduate",
+    "description": "AI 대학원 학습 트래킹 + 졸업 스토리텔링 웹앱",
+    "techStack": {
+      "frontend": "Next.js 14 App Router + TypeScript + Tailwind CSS + shadcn/ui",
+      "backend": "Supabase (Auth + PostgreSQL + Storage)",
+      "deployment": "Vercel"
+    }
+  }
+}

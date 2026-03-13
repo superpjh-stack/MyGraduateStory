@@ -1,0 +1,42 @@
+{
+  "name": "MyGraduate - AI 대학원 학습 여정",
+  "short_name": "MyGraduate",
+  "description": "1년간의 AI 대학원 학습을 기록하고, 성장을 시각화하며, 나만의 스토리를 만들어가는 공간",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF7F2",
+  "theme_color": "#2D5A3D",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "ko",
+  "shortcuts": [
+    {
+      "name": "빠른 기록",
+      "short_name": "기록",
+      "description": "수업 내용을 빠르게 기록",
+      "url": "/sessions/new",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "대시보드",
+      "short_name": "홈",
+      "description": "학습 현황 확인",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

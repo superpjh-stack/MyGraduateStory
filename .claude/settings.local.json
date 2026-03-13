@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npm install 2>&1)",
+      "Bash(npx supabase:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(curl -s -X POST \"https://snrxbyabvvmcbhmeewcf.supabase.co/auth/v1/signup\" \\\\\n  -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNucnhieWFidnZtY2JobWVld2NmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMzNzM0MjksImV4cCI6MjA4ODk0OTQyOX0.F7-_Yr1sir78krUUFtLkIFzgc5fgXziBcKwiCtxHTNs\" \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d '{\"email\":\"gerardo@mygraduate.com\",\"password\":\"admin1234\",\"data\":{\"display_name\":\"Gerardo\"}}')",
+      "Bash(npm install:*)",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/supabase/cli/releases/latest/download/supabase_windows_amd64.tar.gz' -OutFile 'C:/temp/supabase.tar.gz' 2>&1; Write-Host 'done'\" 2>&1)",
+      "Read(//c/temp/**)",
+      "Bash(tar -xzf /c/temp/supabase.tar.gz -C /c/temp/)",
+      "Bash(mkdir -p ~/bin && cp /c/temp/supabase.exe ~/bin/supabase && export PATH=\"$HOME/bin:$PATH\" && ~/bin/supabase --version 2>&1)",
+      "Bash(export PATH=\"$HOME/bin:$PATH\" && cd \"C:/gerardo/01 SmallSF/MyGraduate\" && ~/bin/supabase login 2>&1)",
+      "Bash(export SUPABASE_ACCESS_TOKEN=\"sbp_f0b83a98a791a02202ec07242a259526e330369d\" && export PATH=\"$HOME/bin:$PATH\" && cd \"C:/gerardo/01 SmallSF/MyGraduate\" && ~/bin/supabase link --project-ref snrxbyabvvmcbhmeewcf 2>&1)",
+      "Bash(export SUPABASE_ACCESS_TOKEN=\"sbp_f0b83a98a791a02202ec07242a259526e330369d\" && export PATH=\"$HOME/bin:$PATH\" && cd \"C:/gerardo/01 SmallSF/MyGraduate\" && ~/bin/supabase db execute --file supabase/setup_all.sql 2>&1)",
+      "Bash(export SUPABASE_ACCESS_TOKEN=\"sbp_f0b83a98a791a02202ec07242a259526e330369d\"\ncd \"C:/gerardo/01 SmallSF/MyGraduate\"\npython3 -c \"\nimport json, urllib.request, sys\n\nsql = open\\('supabase/setup_all.sql', 'r', encoding='utf-8'\\).read\\(\\)\ndata = json.dumps\\({'query': sql}\\).encode\\('utf-8'\\)\n\nreq = urllib.request.Request\\(\n  'https://api.supabase.com/v1/projects/snrxbyabvvmcbhmeewcf/database/query',\n  data=data,\n  headers={\n    'Authorization': 'Bearer sbp_f0b83a98a791a02202ec07242a259526e330369d',\n    'Content-Type': 'application/json'\n  },\n  method='POST'\n\\)\ntry:\n  res = urllib.request.urlopen\\(req\\)\n  print\\('SUCCESS:', res.read\\(\\).decode\\(\\)\\)\nexcept urllib.error.HTTPError as e:\n  print\\('ERROR:', e.code, e.read\\(\\).decode\\(\\)\\)\n\" 2>&1)",
+      "Bash(curl -s \\\\\n  -H \"Authorization: Bearer sbp_f0b83a98a791a02202ec07242a259526e330369d\" \\\\\n  -H \"Content-Type: application/json\" \\\\\n  \"https://api.supabase.com/v1/projects/snrxbyabvvmcbhmeewcf/config/auth\")",
+      "Bash(curl -s \\\\\n  -H \"Authorization: Bearer sbp_f0b83a98a791a02202ec07242a259526e330369d\" \\\\\n  -H \"Content-Type: application/json\" \\\\\n  \"https://api.supabase.com/v1/projects/snrxbyabvvmcbhmeewcf/database/query\" \\\\\n  -X POST \\\\\n  -d '{\"query\": \"SELECT id, email, email_confirmed_at, created_at FROM auth.users ORDER BY created_at DESC LIMIT 10;\"}')",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | tail -20)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(error|Error|warning|Failed|success|✓\\)\" | head -30)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(error|Error|Failed|\\\\.tsx\\)\" | head -20)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(error|Error|Failed|✓|Route\\)\" | head -30)",
+      "Bash(sed -i 's/const snapshot = snapshotRes\\\\.data;/const snapshot = snapshotRes.data as any;/' \"C:/gerardo/01 SmallSF/MyGraduate/src/app/\\(app\\)/growth/page.tsx\"\nsed -i 's/const current = currentRes\\\\.data;/const current = currentRes.data as any;/' \"C:/gerardo/01 SmallSF/MyGraduate/src/app/\\(app\\)/reflect/page.tsx\")",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(Failed|✓ Compiled|Type error|\\\\.tsx:\\)\" | head -20)",
+      "Bash(sed -i 's/const history = historyRes\\\\.data ?? \\\\[\\\\];/const history = \\(historyRes.data ?? []\\) as any[];/' \"C:/gerardo/01 SmallSF/MyGraduate/src/app/\\(app\\)/growth/page.tsx\"\nsed -i 's/const achievements = achievementsRes\\\\.data ?? \\\\[\\\\];/const achievements = \\(achievementsRes.data ?? []\\) as any[];/' \"C:/gerardo/01 SmallSF/MyGraduate/src/app/\\(app\\)/growth/page.tsx\"\nsed -i 's/const heatmapData = heatmapRes\\\\.data ?? \\\\[\\\\];/const heatmapData = \\(heatmapRes.data ?? []\\) as any[];/' \"C:/gerardo/01 SmallSF/MyGraduate/src/app/\\(app\\)/growth/page.tsx\")",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(Failed|Type error|\\\\.tsx:\\)\" | head -20)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | grep -E \"\\(Failed|Type error|\\\\.tsx:|Route \\\\\\(app\\\\\\)|✓ Generating\\)\" | head -30)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | head -200)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx next build 2>&1 | tail -300)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npx tsc --noEmit 2>&1)",
+      "Skill(bkit:pdca)",
+      "Bash(cd \"C:\\\\gerardo\\\\01 SmallSF\\\\MyGraduate\" && cat package.json | python -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(k,v\\) for k,v in d.get\\('dependencies',{}\\).items\\(\\)]\" 2>/dev/null || cat package.json | grep -E '\"[a-z@].*\": \"')",
+      "Bash(cd \"C:\\\\gerardo\\\\01 SmallSF\\\\MyGraduate\" && npx tsc --noEmit 2>&1 | head -60)",
+      "Bash(cd \"C:\\\\gerardo\\\\01 SmallSF\\\\MyGraduate\" && npx tsc --noEmit 2>&1 | head -40)",
+      "Bash(cd \"C:/gerardo/01 SmallSF/MyGraduate\" && npm run dev)"
+    ]
+  }
+}
