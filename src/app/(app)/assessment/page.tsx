@@ -1,4 +1,5 @@
-import { getAssessments, ASSESSMENT_QUESTIONS } from "@/lib/actions/assessment";
+import { getAssessments } from "@/lib/actions/assessment";
+import { ASSESSMENT_QUESTIONS } from "@/lib/constants/assessment";
 import { AssessmentForm } from "@/components/assessment/assessment-form";
 import { AssessmentRadarChart } from "@/components/assessment/assessment-radar-chart";
 
